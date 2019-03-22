@@ -8,7 +8,7 @@ sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out
 # Run http/https server
 
 ```
-node install
+npm install
 PORT=3000 node index.js
 ```
 
