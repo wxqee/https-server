@@ -1,0 +1,15 @@
+{
+  "name": "https-server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "create-server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Wang Xiaoqiang <xq21@vip.qq.com> (https://blog.csdn.net/wxqee)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.4"
+  }
+}
