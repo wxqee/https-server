@@ -12,7 +12,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/wxqee/https-server.git"
+    "url": "git://github.com/wxqee/https-server.git"
   },
   "keywords": ["https-server", "http-server", "https", "http", "server", "static", "assets", "ssl"],
   "author": "Wang Xiaoqiang <xq21@vip.qq.com> (https://blog.csdn.net/wxqee)",
