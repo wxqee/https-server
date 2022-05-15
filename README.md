@@ -18,7 +18,7 @@ sudo cp /etc/letsencrypt/live/bijlesconnect.nl/privkey.pem ~/.https-serve/server
 
 # Install
 
-```
+```bash
 npm install -g https-serve
 ```
 
@@ -26,19 +26,19 @@ npm install -g https-serve
 
 find and entry your assets folder
 
-```
+```bash
 sudo https-serve
 ```
 
 # Browser
 
-```
+```bash
 open https://localhost/
 open http://localhost/
 ```
 
 # Different PORTs
 
-```
+```bash
 PORT=1080 HTTPS_PORT=1443 https-serve
 ```
