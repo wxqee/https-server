@@ -7,6 +7,7 @@
 (mkdir -p $HOME/.https-serve/ && cd $HOME/.https-serve/ && sudo openssl req -x509 -nodes -days 365 -newkey rsa:2048 -keyout server.key -out server.crt)
 ```
 **option 2: use cerbot with a linked domain**
+
 sudo certbot certonly --standalone --preferred-challenges http -d yourdomain.com 
 sudo cp /etc/letsencrypt/live/bijlesconnect.nl/fullchain.pem ~/.https-serve/server.crt
 sudo cp /etc/letsencrypt/live/bijlesconnect.nl/privkey.pem ~/.https-serve/server.key
